@@ -1,0 +1,31 @@
+# This file provides a simple way to register objects that you can't define an standard definition.
+#
+# SYNTAX: objectname = localization
+#	An objectname is the name you want to define for your object located in repository
+#	A localization is an expression that identifies your object uniquely. Actually it's only allowed to
+#		register xpath expressions. The xpath expression must be preceded with 'xpath' word.
+#
+# EXAMPLES:
+# 	my repository object 		= xpath//*[@id='objectid']
+#	another repository object	= xpath//*[@id='anotherid']
+#	repository button object	= xpath//button[@id='myid']
+#
+# USAGE:
+#	pushOn("my repository object");
+#	verify("another repository object");
+#	if (exists("repository button object", 3))
+#		pushOn("repository button object");
+#
+####################################################################################################
+
+side_menu menu = xpath//*[@id="dropdownMenu1"]
+top_menu menu = xpath//div[contains(@class,'hdr-toggle')]/span
+search_icon icon = xpath//div[contains(@class,'hdr-search')]/span
+see_more_icon icon = xpath//*[@id="rt_container_top"]/div[3]/span
+
+menu_money a = xpath//*[@id="home"]/ul/li[2]/a
+latest_photos_right_arrow_icon icon = xpath//*[@id="jssor_arrowright"]
+latest_photos_left_arrow_icon icon = xpath//*[@id="jssor_arrowleft"]
+
+gma_trending_right_arrow_icon icon = xpath//*[@id="crowdynews_embed"]/div/div[1]/div[3]/div[2]/i[4]
+gma_trending_left_arrow_icon icon = xpath//*[@id="crowdynews_embed"]/div/div[1]/div[3]/div[2]/i[3]

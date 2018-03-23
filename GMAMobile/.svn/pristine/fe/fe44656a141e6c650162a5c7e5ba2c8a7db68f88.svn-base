@@ -1,0 +1,15 @@
+# This file provides a simple way to rename tags/nodes of your testing DOM
+# All the aliases you create here you can refer them in object's standard configuration file.
+#
+# SYNTAX: realnodename = alias
+# EXAMPLES:
+#		button 	= mybutton
+#		a		= redefinedlink
+#		input	= textinput
+#
+# USAGE: For refering those nodes in object's standard you can use directly its alias name.
+#
+# WARNING: The 'realnodename' is directly used for looking in the DOM, if this file has 
+#	an incorrect codification you may run into problems with accentuation or similar.
+#
+# ########################################################################################

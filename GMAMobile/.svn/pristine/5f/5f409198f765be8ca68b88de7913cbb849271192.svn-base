@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--proxy',
+1 verbose cli   'http://dliebana:Cervantes6@proxy.indra.es:8080',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\package.json
+5 verbose install where, deps [ 'C:\\Users\\dliebana\\Desktop\\Automatizacion\\testReport\\app',
+5 verbose install   [ 'bower' ] ]
+6 verbose install where, peers [ 'C:\\Users\\dliebana\\Desktop\\Automatizacion\\testReport\\app',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\dliebana\Desktop\Automatizacion\testReport\app\package.json
+8 info preinstall angular-testt@1.0.0
+9 verbose installManyTop reading scoped package data from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\node_modules\bower\package.json
+10 info package.json bower@1.4.1 No license field.
+11 verbose readDependencies loading dependencies from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\package.json
+12 verbose targetResolver reading package data from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\node_modules\bower\package.json
+13 verbose targetResolver reading package data from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\node_modules\.bin\bower\package.json
+14 verbose targetResolver reading package data from C:\Users\dliebana\Desktop\Automatizacion\testReport\app\node_modules\.bin\bower.cmd\package.json
+15 verbose already installed skipping bower@^1.3.1 C:\Users\dliebana\Desktop\Automatizacion\testReport\app
+16 silly install resolved []
+17 info build C:\Users\dliebana\Desktop\Automatizacion\testReport\app
+18 info linkStuff angular-testt@1.0.0
+19 silly linkStuff angular-testt@1.0.0 has C:\Users\dliebana\Desktop\Automatizacion\testReport as its parent node_modules
+20 verbose linkBins angular-testt@1.0.0
+21 verbose linkMans angular-testt@1.0.0
+22 verbose rebuildBundles angular-testt@1.0.0
+23 verbose rebuildBundles [ '.bin', 'bower' ]
+24 info install angular-testt@1.0.0
+25 info postinstall angular-testt@1.0.0
+26 verbose unsafe-perm in lifecycle true
+27 info angular-testt@1.0.0 Failed to exec postinstall script
+28 verbose stack Error: angular-testt@1.0.0 postinstall: `bower install`
+28 verbose stack Exit status 1
+28 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+28 verbose stack     at EventEmitter.emit (events.js:110:17)
+28 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+28 verbose stack     at ChildProcess.emit (events.js:110:17)
+28 verbose stack     at maybeClose (child_process.js:1015:16)
+28 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+29 verbose pkgid angular-testt@1.0.0
+30 verbose cwd C:\Users\dliebana\Desktop\Automatizacion\testReport\app
+31 error Windows_NT 6.1.7601
+32 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "--proxy" "http://dliebana:Cervantes6@proxy.indra.es:8080" "install"
+33 error node v0.12.7
+34 error npm  v2.11.3
+35 error code ELIFECYCLE
+36 error angular-testt@1.0.0 postinstall: `bower install`
+36 error Exit status 1
+37 error Failed at the angular-testt@1.0.0 postinstall script 'bower install'.
+37 error This is most likely a problem with the angular-testt package,
+37 error not with npm itself.
+37 error Tell the author that this fails on your system:
+37 error     bower install
+37 error You can get their info via:
+37 error     npm owner ls angular-testt
+37 error There is likely additional logging output above.
+38 verbose exit [ 1, true ]

@@ -1,0 +1,240 @@
+
+
+
+
+
+
+.tests {
+list-style: none;
+}
+.thumb {
+float: left;
+margin: -0.5em 1em 1.5em 0;
+padding-bottom: 1em;
+height: 100px;
+width: 100px;
+}
+
+
+.customLabel{
+  background-color: #3276B1;
+}
+
+.customLabel:hover{
+  background-color: #3276BF;
+}
+
+
+/** Detail View **/
+img.test {
+float: left;
+margin-right: 3em;
+margin-bottom: 2em;
+background-color: white;
+padding-left:10;
+width: 100%;
+}
+
+img.test-thumbs{
+height: 100px;
+width: 100px;
+}
+
+ul.steps {
+clear: both;
+}
+
+.passed{
+font-weight: bold;
+color: green;
+}
+
+.failed{
+font-weight: bold;
+color: red;
+}
+.blocked{
+font-weight: bold;
+color: gray;
+}
+
+h1 {
+border-bottom: 1px solid #DDD;
+}
+
+
+h3 {
+border-bottom: 1px solid #DDD;
+}
+
+.bold{
+font-weight: bold;
+}
+
+.vCenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.margin{
+  margin:10pt;
+}
+
+.labelMargin{
+  margin-top:5pt;
+}
+
+
+.botomMargin{
+  margin-bottom: 10pt;
+}
+
+.AmpliationImg{
+  width: 100%;
+}
+
+.right {
+    position: absolute;
+    right: 20pt;
+}
+
+.languajeButton{
+  width: 100pt;
+}
+
+.paddingStep{
+    padding-top: 10pt;
+    padding-left: 10pt
+}
+
+.header{
+  height: 70pt;
+  background-color: #3276B1;
+  margin-bottom: 20pt;
+  padding-top: 10pt;
+}
+
+.logoImg{
+  position: absolute; 
+  right: 10pt; 
+  width: 100pt;
+}
+
+.logoText{
+  font-size: 20pt;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin-left: 20pt;
+}
+
+.flagContainer{
+  margin-left: 20pt;
+}
+.flag{
+  width: 20pt;
+}
+
+
+
+/** Animations**/
+
+.test-listing.ng-enter,
+.test-listing.ng-leave,
+.test-listing.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.test-listing.ng-enter,
+.test-listing.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.test-listing.ng-move.ng-move-active,
+.test-listing.ng-enter.ng-enter-active {
+  opacity: 1;
+  height: 120px;
+}
+
+.test-listing.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.test-listing.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.alert.ng-enter,
+.alert.ng-leave{
+	-webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.alert.ng-enter{
+	opacity: 0;
+}
+
+.alert.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+.alert.ng-leave{
+	opacity: 1;
+}
+
+.alert.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+
+/** for repair modal **/
+.modal.fade {
+  opacity: 1;
+}
+
+.modal.fade .modal-dialog, .modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-title{
+  color: #FFFFFF;
+}
+
+.modal-lg{
+  width: 95%;
+}
+
+.leftArrow{
+  position: absolute; 
+  left: 0pt; 
+  top: 30%;
+  width: 40pt;
+  height: 150pt
+}
+
+
+.rightArrow{
+  position: absolute; 
+  right: 0pt; 
+  top: 30%;
+  width: 40pt;
+  height: 150pt;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}

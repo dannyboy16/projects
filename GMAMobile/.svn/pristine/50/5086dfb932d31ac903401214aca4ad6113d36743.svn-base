@@ -1,0 +1,34 @@
+[i] [14:51:53] At context IOExcel: Reading test names from excel...
+[i] [14:51:53] At context IOExcel: Test list successfully loaded from excel.
+[i] [14:51:53] At context IOExcel: Reading parameters from excel...
+[i] [14:51:53] At context IOExcel: Test data successfully loaded from excel.
+[i] [14:51:53] At context NavigateMobileWebTest: 
+--- Executing ---
+	Suite: NavigateMobileWebSuite
+	Test case: NavigateMobileWebTest
+	Description: null
+	On device: emulator-5556
+[i] [14:51:53] At context GenericAndroid: Navigating to 'http://www.gmanetwork.com/news/'.
+[D] [14:52:11] At context NavigateMobileWebReusable: Loading reusable parameters: 0
+[i] [14:52:11] At context GenericAndroid: Hovering and pushing on "id_dropdownmenu search_component_by_id".
+[i] [14:52:11] At context ObjectsSelenium: Looking for id_dropdownmenu search_component_by_id in object repository
+[i] [14:52:11] At context ObjectsSelenium: Looking for dropdownMenu1 search_component_by_id in standard object library
+[D] [14:52:11] At context ObjectsSelenium: //*[@id="dropdownMenu1"]
+[i] [14:52:13] At context ReportManager: Obtaining screenshot of step
+[i] [14:52:14] At context ReportManager: [passed] 14:52:13 09/02/2018 Hovering and pushing on "id_dropdownmenu search_component_by_id".
+[i] [14:52:14] At context ReportManager: Adding step to test execution
+[i] [14:52:14] At context GenericAndroid: Waiting 5 seconds.
+[E] [14:52:19] At context NavigateMobileWebTest: An unexpected error ocurred. Trying next test case.
+[i] [14:52:19] At context ReportManager: Obtaining screenshot of step
+[i] [14:52:19] At context ReportManager: [failed] 14:52:19 09/02/2018 Failed step. Exception caught.
+[i] [14:52:19] At context ReportManager: Adding step to test execution
+[E] [14:52:19] At context TestReport: Step failed so Test case too
+[i] [14:52:19] At context IOReport: Angular Report will be stored in:testReport/
+[i] [14:52:20] At context IOReport: Printing in json format
+[D] [14:52:20] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[D] [14:52:20] At context IOReport: DEVICE: emulator-5556
+[D] [14:52:20] At context IOReport: BUILD LIST SIZE: 21
+[i] [14:52:20] At context IOReport: testList = [indra.cilantrum.report.TestIndexPojo@1]
+[i] [14:52:20] At context IOReport: json reporting finished. Files are in testReport/tests/22/1.json
+[D] [14:52:20] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[i] [14:52:20] At context DriverManager: Tearing down drivers...

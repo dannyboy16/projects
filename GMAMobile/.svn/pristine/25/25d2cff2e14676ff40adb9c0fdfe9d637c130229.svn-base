@@ -1,0 +1,53 @@
+# -------- General configuration ---------
+# Set environment: local, remote
+environment = local
+
+# Path to the report configuration file
+report_path = resources/report.properties
+
+# Path to the excel data file
+excel_path = resources/GMAData.xls
+
+# Path to the target devices folder.
+target_devices_path = resources/devices
+
+# Path to the literal's translate file.
+translate_file_path = resources/translation.xls
+
+# Target devices for testing. Target devices must be previously defined as a config properties file in target_devices_path.
+# You must link here your device's properties file for your tests execution as shown below.
+# Example: target_devices = device1;mydevice_02;device03
+#target_devices = SamsungGalaxyS6Edge
+target_devices = SamsungGalaxyS8Plus
+#SamsungGalaxyS5
+
+# Parallel execution flag. 
+# If set to 'true' tests execution would be take place AT THE SAME TIME in the previous devices defined in target_devices property.
+# If set to 'false tests execution would be take place SEQUENTALLY in the previous devices defined in target_devices property.
+parallel_execution = true
+
+# OPTIONAL - Name of the operative system
+operative_system = Windows
+
+# OPTIONAL - Version of the operative system
+os_version = 7
+
+# OPTIONAL - Short timeout. Default 3 seconds.
+#short_timeout = 2
+
+# OPTIONAL - Long timeout. Default 10 seconds.
+long_timeout = 120
+
+# OPTIONAL - Logs folder path. Default: logs/
+#log_folder_path = ...
+
+# OPTIONAL - Log level. Default 1.
+# -1=no log ; 0=only warnings/errors ; 1=general log ; 2=trace log ; 3=log + debug
+log_level = 3
+
+# -------- Web only ---------
+# Path to the Internet Explorer driver. Only used when target device is using 'ie' driver
+#iedriver_path = ...
+
+# Path to the Chrome driver. Only used when target device is using 'chrome' driver
+#chromedriver_path = ...

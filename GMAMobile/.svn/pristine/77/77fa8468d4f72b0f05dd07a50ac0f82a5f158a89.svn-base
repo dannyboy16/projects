@@ -1,0 +1,25 @@
+[i] [10:46:06] At context IOExcel: Reading test names from excel...
+[i] [10:46:06] At context IOExcel: Test list successfully loaded from excel.
+[i] [10:46:07] At context IOExcel: Reading parameters from excel...
+[i] [10:46:07] At context IOExcel: Test data successfully loaded from excel.
+[i] [10:46:07] At context NavigateMobileWebTest: 
+--- Executing ---
+	Suite: NavigateMobileWebSuite
+	Test case: NavigateMobileWebTest
+	Description: null
+	On device: emulator-5556
+[i] [10:46:07] At context GenericAndroid: clearing app data...
+[i] [10:46:07] At context GenericAndroid: clearing web cookies...
+[i] [10:46:08] At context ReportManager: [passed] 10:46:08 09/02/2018 Clearing data of the app
+[i] [10:46:08] At context ReportManager: Adding step to test execution
+[i] [10:46:08] At context GenericAndroid: Navigating to 'http://www.gmanetwork.com/news/'.
+[D] [10:46:28] At context NavigateMobileWebReusable: Loading reusable parameters: 0
+[i] [10:46:28] At context IOReport: Angular Report will be stored in:testReport/
+[i] [10:46:28] At context IOReport: Printing in json format
+[D] [10:46:28] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[D] [10:46:28] At context IOReport: DEVICE: emulator-5556
+[D] [10:46:28] At context IOReport: BUILD LIST SIZE: 1
+[i] [10:46:28] At context IOReport: testList = [indra.cilantrum.report.TestIndexPojo@1]
+[i] [10:46:28] At context IOReport: json reporting finished. Files are in testReport/tests/2/1.json
+[D] [10:46:28] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[i] [10:46:28] At context DriverManager: Tearing down drivers...

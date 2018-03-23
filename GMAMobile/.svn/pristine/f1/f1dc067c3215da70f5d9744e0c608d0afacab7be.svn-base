@@ -1,0 +1,10 @@
+search_imageview_by_resourceid = xpath//android.widget.ImageView[@resource-id='%%']
+search_button_by_resourceid = xpath//android.widget.Button[@resource-id='%%']
+search_linearlayout_by_resourceid = xpath//android.widget.LinearLayout[@resource-id='%%']
+search_relativelayout_by_index = xpath//android.widget.RelativeLayout[@index=%%]
+
+search_textview_by_resourceid = xpath//android.widget.TextView[@resource-id='%%']
+search_textview_by_text = xpath//android.widget.TextView[contains(@text,'%%')]
+
+search_imageview_by_resourceid = xpath//android.widget.ImageView[@resource-id='%%']
+search_edittext_by_resourceid = xpath//android.widget.EditText[@resource-id='%%']

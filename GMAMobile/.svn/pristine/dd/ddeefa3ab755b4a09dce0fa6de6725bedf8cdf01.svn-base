@@ -1,0 +1,129 @@
+<div class="container-fluid" >
+	<div class="row">
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query" ng-model="query" placeholder="General Filter"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query2" ng-model="query2" placeholder="Start Date of Exec"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="searchDate()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>		
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query3" ng-model="query3" placeholder="End Date of Exec"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="searchDateFin()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query4" ng-model="query4" placeholder="Passed Test Cases"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="searchPassed()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query5" ng-model="query5" placeholder="Failed Test Cases"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="searchFailed()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>		
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="input-group input-group-lg add-on">
+				<input type="text" class="form-control search-query6" ng-model="query6" placeholder="Blocked Test Cases"></input>
+				<div class="input-group-btn">					
+					<button class="btn btn-primary" type="submit" ng-click="searchBlocked()"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-3">
+			<select class="form-control input-lg pull-right" ng-model="itemsPerPage" ng-change="perPage()" ng-options="(''+size+' records in page') for size in pageSizes"></select>
+		</div>
+		<div class="col-md-3">
+		<button class="btn btn-primary" type="submit"  ng-click="cleanfilter()">Reset Filters</button>
+				<a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal">Reload List</a>	
+		</div>
+    </div>
+	<br>			
+    <br>
+    <table class="table table-striped table-hover">
+		<tbody>
+			<tr>
+				<th class="id"><a ng-click="sort_by('build')">Execution Id <i class="fa fa-sort"></i></a></th>
+				<th class="name"><a ng-click="sort_by('suite')">Suite <i class="fa fa-sort"></i></a></th>
+				<th class="name"><a ng-click="sort_by('date')">Start Date of Execution <i class="fa fa-sort"></i></a></th>
+				<th class="field3"><a ng-click="sort_by('dateFin')">End Date of Execution <i class="fa fa-sort"></i></a></th>
+				<th class="description" title="non-sortable">No of Passed Cases</th>
+				<th class="description" title="non-sortable">No of Failed Cases</th>
+				<th class="description" title="non-sortable">No of Blocked Cases</th>
+				<th class="description" title="non-sortable">Ratio</th>
+				<th class="description" title="non-sortable">Access Report</th>        	
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="9">{{sizes}}
+					<div class="text-center">
+						<ul class="pagination">
+							<li ng-class="{disabled: currentPage == 0}">
+								<a href="javascript:;" ng-click="prevPage()">« Back</a>
+							</li>
+							<li ng-repeat="n in range(pagedItems.length)" ng-class="{active: n == currentPage}" ng-click="setPage()">
+								<a href="javascript:;" ng-bind="n + 1">1</a>
+							</li>
+							<li ng-class="{disabled: currentPage == pagedItems.length - 1}">
+								<a href="javascript:;" ng-click="nextPage()">Next »</a>
+							</li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr ng-repeat="item in pagedItems[currentPage] | filter:{ suite : suiteFilter } | filter:{ date : dateFilter } |orderBy:sortingOrder:reverse">
+				<td>{{item.build}}</td>
+				<td>{{item.suite}}</td>
+				<td>{{item.date}}</td>
+				<td>{{item.dateFin}}</td>         
+				<td>{{item.passed}}</td>
+				<td>{{item.failed}}</td>
+				<td>{{item.blocked}}</td>
+				<!--<td>{{(item.passed*100)/(item.passed + item.failed + item.blocked)}}</td>-->
+				<td>
+					<div ng-switch on="item.passed+item.failed+item.blocked">
+						<div ng-switch-when="0">
+							N/A
+						</div>
+						<div ng-switch-default>
+							{{(item.passed*100)/(item.passed + item.failed + item.blocked)}}
+						</div>
+					</div>
+				</td>
+				<td><a class = 'label ' href="#/tests/{{item.build}}" ng-class=
+					"{'label-success' : ((item.failed == '0') && (item.passed > '0')) && (item.blocked=='0'),
+					'label-danger': (item.failed > '0') && (item.blocked=='0'),
+					'label-warning':(item.blocked!='0'),
+					'label-default':(item.failed == '0') && (item.passed == '0') && (item.blocked=='0')
+					}">link to report</a></td>
+			</tr>
+		</tbody>
+	</table>
+ </div>

@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- saved from url=(0016)http://localhost -->
+<html lang="en" ng-app="testApp">
+<head>
+<meta charset="utf-8">
+<title>Test Report</title>
+
+<link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="app/bower_components/angular-chart.js/dist/angular-chart.css">
+<link rel="stylesheet" href="app/css/app.css">
+<script src="app/bower_components/jquery/dist/jquery.js"></script>
+<script src="app/bower_components/angular/angular.js"></script>
+<script src="app/bower_components/angular-route/angular-route.js"></script>
+<script src="app/bower_components/angular-animate/angular-animate.js"></script>
+<script src="app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="app/bower_components/angular-translate/angular-translate.js"></script>
+<script src="app/bower_components/Chart.js/Chart.min.js"></script>
+<script src="app/bower_components/angular-chart.js/dist/angular-chart.js"></script>
+<script src="app/js/app.js"></script>
+<script src="app/js/controllers.js"></script> 
+<script src="app/js/filters.js"></script>
+<script src="app/js/animations.js"></script>
+<script src="app/js/i18n.js"></script>
+</head>
+<body >
+
+<div class="header" ng-controller="IdiomCtrl">
+	<span class="logoText" translate="TITTLE"></span>
+	<img class="logoImg"src="app/img/logo.png"\>
+	<div class="flagContainer" >
+		<img class="flag"src="app/img/es_flag.jpg"  ng-click="changeLanguage('es')"\>
+		<img class="flag"src="app/img/en_flag.png" ng-click="changeLanguage('en')"\>
+	</div>
+</div>
+
+<div ng-view></div>
+
+</body>
+</html>

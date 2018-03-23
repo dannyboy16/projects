@@ -1,0 +1,25 @@
+# This file provides a simple way to register objects that you can't define an standard definition.
+#
+# SYNTAX: objectname = localization
+#	An objectname is the name you want to define for your object located in repository
+#	A localization is an expression that identifies your object uniquely. Actually it's only allowed to
+#		register xpath expressions. The xpath expression must be preceded with 'xpath' word.
+#
+# EXAMPLES:
+# 	my repository object 		= xpath//*[@id='objectid']
+#	another repository object	= xpath//*[@id='anotherid']
+#	repository button object	= xpath//button[@id='myid']
+#
+# USAGE:
+#	pushOn("my repository object");
+#	verify("another repository object");
+#	if (exists("repository button object", 3))
+#		pushOn("repository button object");
+#
+####################################################################################################
+
+main_menu imageview = xpath//android.widget.ImageView[@resource-id='android:id/home']
+
+camera icon	= xpath//GLButton[@index=4]
+startvid icon = xpath//GLButton[@index=3]
+stopvid icon = xpath//GLButton[@index=1]

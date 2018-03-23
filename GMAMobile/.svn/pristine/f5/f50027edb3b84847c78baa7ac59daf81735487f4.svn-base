@@ -1,0 +1,51 @@
+
+# Enables/disables reports: true, false
+enable = true
+
+# Environment of the execution report. Available environments: local, svn, ftp
+environment = local
+
+# ONLY IF ENVIRONMENT IS LOCAL - Path to the angular app engine.
+#angular_path = C:/Users/jmendezma/Desktop/testReport
+angular_path = testReport
+
+# ONLY IF ENVIRONMENT IS REMOTE - Url to your report folder. If local the path to the report's folder, if not the remote url.
+url = ...
+
+# ONLY IF ENVIRONMENT IS REMOTE - User of your ftp/svn environment
+user_auth = ...
+
+# ONLY IF ENVIRONMENT IS REMOTE - Password of your ftp/svn environment
+user_pass = ...
+
+# Screenshot variable : true, false
+screenshotflag = true
+
+# Maximum bounds to resize screenshot resolution. The image will fit to the defined boundaries keeping aspect ratio.
+# SYNTAX: WIDTHxHEIGHT
+# DEFAULT: 600x600
+#screenshot_max_size = 600x600
+
+# Enables/disables email reports
+email = false
+
+# Email host
+#smtp_host = smtp.gmail.com
+
+# Email port
+#smtp_port = ...
+# User's email account
+#smtp_user = ...
+# User's email password
+#smtp_pwd = ...
+
+# Email 'to' field
+#to = ...
+
+# Email 'cc' field
+#cc = ...
+
+# Email 'cco' field
+#cco = ...
+
+word_report = false

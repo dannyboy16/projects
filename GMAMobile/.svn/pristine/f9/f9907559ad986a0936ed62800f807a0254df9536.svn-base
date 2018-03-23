@@ -1,0 +1,35 @@
+package com.indracompany.gma.mobile.reusable;
+
+import indra.cilantrum.cilantrum.CilantrumReusable;
+import indra.cilantrum.exception.ExecutionException;
+
+public class NavigateMobileWebReusable extends CilantrumReusable{
+
+	public void execute() throws ExecutionException {
+		// TODO Auto-generated method stub
+		hoverAndPushOn("id_dropdownmenu search_component_by_id");
+		wait(5);
+		changeContext("native");
+		//dragToFind("Male containsvalue", 70, true, 15, true);
+		wait(5);
+//		hoverAndPushOn("trending_text div");
+//		wait(5);
+	}
+
+	public void postExecute() throws ExecutionException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void preExecute() throws ExecutionException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void loadParameters() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

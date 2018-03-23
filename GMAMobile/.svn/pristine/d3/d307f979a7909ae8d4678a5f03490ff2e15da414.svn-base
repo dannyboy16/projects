@@ -1,0 +1,106 @@
+# This file is a configuration template for a generic device (web or mobile).
+#
+# HOW TO USE:
+# - Copy this file into the folder you previously defined as a devices folder in cilantrum.properties
+# - Edit the copied file to your taste
+# - Save as new properties file renamed as convenient. Ex: my_device.properties
+#
+# Don't forget to link your new device configuration file in cilantrum.properties!
+
+# Path to the repository file
+repository_path = resources/repositoryAppMobile.txt
+
+# Path to the aliases file
+aliases_path = resources/aliases.txt
+
+# Path to the standard file
+standard_path = resources/standardAppMobile.txt
+
+# Driver to use in this device: firefox, chrome, ie, android, ios, seetest
+driver = android
+
+# Target translation to use as literal strings in your execution
+translation = English
+
+# Address of local/remote machine that is holding the testing environment
+address = 127.0.0.1
+
+# Port of local/remote machine that is holding the testing environment
+port = 4733
+
+# -------- Web only ---------
+# Initial url to begin the test
+#url = http://www.airasia.com/
+
+# -------- Mobile only ---------
+# Unique device identifier of the connected physical device
+#device_udid = adb:SM-J100H
+#device_name = GBAXHM112603D2P
+#device_udid = GBAXHM112603D2P
+#emulator-5556
+device_udid = ce0617167d73a47b0d
+#3fadd330
+#emulator-5554
+
+
+
+# -------- Appium only ---------
+# Path to the Appium node executable
+node_path = C:/Program Files/nodejs
+
+# Path to the Appium server main js
+main_path = C:/Users/jabilar.INDRA/AppData/Roaming/npm/node_modules/appium/lib/main.js
+
+# Automation engine name: 'Appium', 'Selendroid'
+automation_name = Appium
+
+#driver_path = C:/Cilantrum/Orig Codes/IEDriver.exe
+
+# Device name
+#device_name = GBAXHM112603D2P
+#device_name = GBAXHM112603D2P
+## ce0617167d73a47b0d
+device_name = ce0617167d73a47b0d
+# 3fadd330
+
+# Target platform name: 'Android', 'iOS', 'FirefoxOS'
+platform_name = Android
+
+# Target platform API version
+platform_version = 7.0
+
+
+# OPTIONAL - App's local file-system path
+#app_path = /system/app/Browser.apk
+#app_path = /data/app/com.airasia.mobile-1.apk
+
+#App's package
+app_package = com.gmanmi.youscoop
+
+app_activity = com.gmanmi.youscoop.SplashActivity
+#app_activity = com.android.browser
+
+
+# OPTIONAL - Device internet browser: 'Safari' for iOS and 'Chrome', 'Chromium', or 'Browser' for Android
+#browser = Browser
+
+# OPTIONAL - Language: 'en', 'es', 'it', 'fr', 'de', ...
+language = en
+
+# OPTIONAL - Locale: 'US', 'ES', 'GB', ...
+locale = US
+
+# OPTIONAL - Path to the SDK
+sdk_path = C:/Users/jabilar.INDRA/AppData/Local/Android/Sdk
+
+# OPTIONAL
+#coverage_class = ...
+
+# OPTIONAL
+chromedriver_port = 4735
+
+# OPTIONAL
+bootstrap_port = 4734
+
+# OPTIONAL
+#selendroid_port = ...

@@ -1,0 +1,376 @@
+[i] [14:47:47] At context IOExcel: Reading test names from excel...
+[i] [14:47:47] At context IOExcel: Test list successfully loaded from excel.
+[i] [14:47:47] At context IOExcel: Reading parameters from excel...
+[i] [14:47:47] At context IOExcel: Test data successfully loaded from excel.
+[i] [14:47:47] At context NavigateMobileAppTest: 
+--- Executing ---
+	Suite: NavigateMobileAppSuite
+	Test case: NavigateMobileAppTest
+	Description: null
+	On device: ce0617167d73a47b0d
+[D] [14:47:47] At context NavigateMobileAppReusable: Loading reusable parameters: 0
+[i] [14:47:47] At context GenericAndroid: Waiting 10 seconds.
+[i] [14:47:57] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:47:57] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:47:57] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:47:57] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:47:59] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:04] At context ReportManager: [passed] 14:47:59 23/02/2018 Main menu is displayed
+[i] [14:48:04] At context ReportManager: Adding step to test execution
+[i] [14:48:04] At context GenericAndroid: Checking existence of "resourceid_main_logo search_imageview_by_resourceid".
+[i] [14:48:04] At context ObjectsSelenium: Looking for resourceid_main_logo search_imageview_by_resourceid in object repository
+[i] [14:48:04] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/actionbar_title search_imageview_by_resourceid in standard object library
+[D] [14:48:04] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/actionbar_title']
+[i] [14:48:05] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:11] At context ReportManager: [passed] 14:48:05 23/02/2018 Main logo is displayed
+[i] [14:48:11] At context ReportManager: Adding step to test execution
+[i] [14:48:11] At context GenericAndroid: Checking existence of "resourceid_camera_icon search_button_by_resourceid".
+[i] [14:48:11] At context ObjectsSelenium: Looking for resourceid_camera_icon search_button_by_resourceid in object repository
+[i] [14:48:11] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/menu_submit_picture search_button_by_resourceid in standard object library
+[D] [14:48:11] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/menu_submit_picture']
+[i] [14:48:12] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:17] At context ReportManager: [passed] 14:48:12 23/02/2018 Camera icon is displayed
+[i] [14:48:17] At context ReportManager: Adding step to test execution
+[i] [14:48:17] At context GenericAndroid: Checking existence of "resourceid_home_image_list search_linearlayout_by_resourceid".
+[i] [14:48:17] At context ObjectsSelenium: Looking for resourceid_home_image_list search_linearlayout_by_resourceid in object repository
+[i] [14:48:17] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/main_list search_linearlayout_by_resourceid in standard object library
+[D] [14:48:17] At context ObjectsSelenium: //android.widget.LinearLayout[@resource-id='com.gmanmi.youscoop:id/main_list']
+[i] [14:48:19] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:24] At context ReportManager: [passed] 14:48:19 23/02/2018 Image list is displayed
+[i] [14:48:24] At context ReportManager: Adding step to test execution
+[i] [14:48:24] At context GenericAndroid: height2792
+[i] [14:48:24] At context GenericAndroid: width1440
+[i] [14:48:24] At context GenericAndroid: starty2341
+[i] [14:48:24] At context GenericAndroid: endy451
+[i] [14:48:24] At context GenericAndroid: startx720
+[i] [14:48:25] At context GenericAndroid: Swiping top to bottom
+[i] [14:48:25] At context GenericAndroid: Waiting 5 seconds.
+[i] [14:48:30] At context GenericAndroid: height2792
+[i] [14:48:30] At context GenericAndroid: width1440
+[i] [14:48:30] At context GenericAndroid: starty181
+[i] [14:48:30] At context GenericAndroid: endy2611
+[i] [14:48:30] At context GenericAndroid: startx720
+[i] [14:48:30] At context GenericAndroid: Swiping bottom to top
+[i] [14:48:30] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:48:30] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:48:30] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:48:30] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:48:31] At context GenericAndroid: getting literal of the: resourceid_main_menu --> android:id/home
+[i] [14:48:31] At context GenericAndroid: Pushing on "android:id/home".
+[i] [14:48:37] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:48:37] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:48:37] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:48:38] At context ReportManager: [passed] 14:48:31 23/02/2018 Pushing on "android:id/home".
+[i] [14:48:38] At context ReportManager: Adding step to test execution
+[i] [14:48:38] At context GenericAndroid: Checking existence of "index_main_menu_whatisyouscoop search_relativelayout_by_index".
+[i] [14:48:38] At context ObjectsSelenium: Looking for index_main_menu_whatisyouscoop search_relativelayout_by_index in object repository
+[i] [14:48:38] At context ObjectsSelenium: Looking for 3 search_relativelayout_by_index in standard object library
+[D] [14:48:38] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=3]
+[i] [14:48:40] At context GenericAndroid: getting literal of the: index_main_menu_whatisyouscoop --> 3
+[i] [14:48:40] At context GenericAndroid: Pushing on "3".
+[i] [14:48:44] At context ObjectsSelenium: Looking for index_main_menu_whatisyouscoop search_relativelayout_by_index in object repository
+[i] [14:48:44] At context ObjectsSelenium: Looking for 3 search_relativelayout_by_index in standard object library
+[D] [14:48:44] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=3]
+[i] [14:48:44] At context ReportManager: [passed] 14:48:40 23/02/2018 Pushing on "3".
+[i] [14:48:44] At context ReportManager: Adding step to test execution
+[i] [14:48:44] At context GenericAndroid: Checking existence of "resourceid_youscooppage_header search_textview_by_resourceid".
+[i] [14:48:44] At context ObjectsSelenium: Looking for resourceid_youscooppage_header search_textview_by_resourceid in object repository
+[i] [14:48:44] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/version search_textview_by_resourceid in standard object library
+[D] [14:48:44] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.gmanmi.youscoop:id/version']
+[i] [14:48:46] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:49] At context ReportManager: [passed] 14:48:46 23/02/2018 Youscoop Header info is displayed
+[i] [14:48:49] At context ReportManager: Adding step to test execution
+[i] [14:48:49] At context GenericAndroid: Checking existence of "resourceid_youscooppage_message_body search_textview_by_resourceid".
+[i] [14:48:49] At context ObjectsSelenium: Looking for resourceid_youscooppage_message_body search_textview_by_resourceid in object repository
+[i] [14:48:49] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/custom_font search_textview_by_resourceid in standard object library
+[D] [14:48:49] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.gmanmi.youscoop:id/custom_font']
+[i] [14:48:49] At context ReportManager: Obtaining screenshot of step
+[i] [14:48:51] At context ReportManager: [passed] 14:48:49 23/02/2018 Image list is displayed
+[i] [14:48:51] At context ReportManager: Adding step to test execution
+[i] [14:48:51] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:48:51] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:48:51] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:48:51] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:48:52] At context GenericAndroid: getting literal of the: resourceid_main_menu --> android:id/home
+[i] [14:48:52] At context GenericAndroid: Pushing on "android:id/home".
+[i] [14:48:55] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:48:55] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:48:55] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:48:55] At context ReportManager: [passed] 14:48:52 23/02/2018 Pushing on "android:id/home".
+[i] [14:48:55] At context ReportManager: Adding step to test execution
+[i] [14:48:55] At context GenericAndroid: Checking existence of "index_main_menu_faqs search_relativelayout_by_index".
+[i] [14:48:55] At context ObjectsSelenium: Looking for index_main_menu_faqs search_relativelayout_by_index in object repository
+[i] [14:48:55] At context ObjectsSelenium: Looking for 5 search_relativelayout_by_index in standard object library
+[D] [14:48:55] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=5]
+[i] [14:48:56] At context GenericAndroid: getting literal of the: index_main_menu_faqs --> 5
+[i] [14:48:56] At context GenericAndroid: Pushing on "5".
+[i] [14:49:00] At context ObjectsSelenium: Looking for index_main_menu_faqs search_relativelayout_by_index in object repository
+[i] [14:49:00] At context ObjectsSelenium: Looking for 5 search_relativelayout_by_index in standard object library
+[D] [14:49:00] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=5]
+[i] [14:49:00] At context ReportManager: [passed] 14:48:56 23/02/2018 Pushing on "5".
+[i] [14:49:00] At context ReportManager: Adding step to test execution
+[i] [14:49:00] At context GenericAndroid: Checking existence of "index_faqspage_header search_textview_by_resourceid".
+[i] [14:49:00] At context ObjectsSelenium: Looking for index_faqspage_header search_textview_by_resourceid in object repository
+[i] [14:49:00] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/custom_font2 search_textview_by_resourceid in standard object library
+[D] [14:49:00] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.gmanmi.youscoop:id/custom_font2']
+[i] [14:49:02] At context ReportManager: Obtaining screenshot of step
+[i] [14:49:04] At context ReportManager: [passed] 14:49:02 23/02/2018 FAQS Header info is displayed
+[i] [14:49:04] At context ReportManager: Adding step to test execution
+[i] [14:49:04] At context GenericAndroid: Checking existence of "index_faqspage_first_dropdown search_relativelayout_by_index".
+[i] [14:49:04] At context ObjectsSelenium: Looking for index_faqspage_first_dropdown search_relativelayout_by_index in object repository
+[i] [14:49:04] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:04] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:06] At context GenericAndroid: getting literal of the: index_faqspage_first_dropdown --> 0
+[i] [14:49:06] At context GenericAndroid: Pushing on "0".
+[i] [14:49:08] At context ObjectsSelenium: Looking for index_faqspage_first_dropdown search_relativelayout_by_index in object repository
+[i] [14:49:08] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:08] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:09] At context ReportManager: [passed] 14:49:06 23/02/2018 Pushing on "0".
+[i] [14:49:09] At context ReportManager: Adding step to test execution
+[i] [14:49:09] At context GenericAndroid: Checking existence of "text_faqspage_first_dropdown_body_message search_textview_by_text".
+[i] [14:49:09] At context ObjectsSelenium: Looking for text_faqspage_first_dropdown_body_message search_textview_by_text in object repository
+[i] [14:49:09] At context ObjectsSelenium: Looking for Almost anything search_textview_by_text in standard object library
+[D] [14:49:09] At context ObjectsSelenium: //android.widget.TextView[contains(@text,'Almost anything')]
+[i] [14:49:10] At context ReportManager: Obtaining screenshot of step
+[i] [14:49:13] At context ReportManager: [passed] 14:49:10 23/02/2018 Dropdown body message value is displayed
+[i] [14:49:13] At context ReportManager: Adding step to test execution
+[i] [14:49:13] At context GenericAndroid: Checking existence of "index_faqspage_first_dropdown search_relativelayout_by_index".
+[i] [14:49:13] At context ObjectsSelenium: Looking for index_faqspage_first_dropdown search_relativelayout_by_index in object repository
+[i] [14:49:13] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:13] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:14] At context GenericAndroid: getting literal of the: index_faqspage_first_dropdown --> 0
+[i] [14:49:14] At context GenericAndroid: Pushing on "0".
+[i] [14:49:16] At context ObjectsSelenium: Looking for index_faqspage_first_dropdown search_relativelayout_by_index in object repository
+[i] [14:49:16] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:16] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:17] At context ReportManager: [passed] 14:49:14 23/02/2018 Pushing on "0".
+[i] [14:49:17] At context ReportManager: Adding step to test execution
+[i] [14:49:17] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:49:17] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:49:17] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:49:17] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:49:18] At context GenericAndroid: getting literal of the: resourceid_main_menu --> android:id/home
+[i] [14:49:18] At context GenericAndroid: Pushing on "android:id/home".
+[i] [14:49:21] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:49:21] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:49:21] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:49:22] At context ReportManager: [passed] 14:49:18 23/02/2018 Pushing on "android:id/home".
+[i] [14:49:22] At context ReportManager: Adding step to test execution
+[i] [14:49:22] At context GenericAndroid: Checking existence of "index_main_menu_feeds search_relativelayout_by_index".
+[i] [14:49:22] At context ObjectsSelenium: Looking for index_main_menu_feeds search_relativelayout_by_index in object repository
+[i] [14:49:22] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:22] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:24] At context GenericAndroid: getting literal of the: index_main_menu_feeds --> 0
+[i] [14:49:24] At context GenericAndroid: Pushing on "0".
+[i] [14:49:27] At context ObjectsSelenium: Looking for index_main_menu_feeds search_relativelayout_by_index in object repository
+[i] [14:49:27] At context ObjectsSelenium: Looking for 0 search_relativelayout_by_index in standard object library
+[D] [14:49:27] At context ObjectsSelenium: //android.widget.RelativeLayout[@index=0]
+[i] [14:49:28] At context ReportManager: [passed] 14:49:24 23/02/2018 Pushing on "0".
+[i] [14:49:28] At context ReportManager: Adding step to test execution
+[i] [14:49:28] At context GenericAndroid: Checking existence of "resourceid_camera_icon search_button_by_resourceid".
+[i] [14:49:28] At context ObjectsSelenium: Looking for resourceid_camera_icon search_button_by_resourceid in object repository
+[i] [14:49:28] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/menu_submit_picture search_button_by_resourceid in standard object library
+[D] [14:49:28] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/menu_submit_picture']
+[i] [14:49:30] At context GenericAndroid: getting literal of the: resourceid_camera_icon --> com.gmanmi.youscoop:id/menu_submit_picture
+[i] [14:49:30] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/menu_submit_picture".
+[i] [14:49:35] At context ObjectsSelenium: Looking for resourceid_camera_icon search_button_by_resourceid in object repository
+[i] [14:49:35] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/menu_submit_picture search_button_by_resourceid in standard object library
+[D] [14:49:35] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/menu_submit_picture']
+[i] [14:49:36] At context ReportManager: [passed] 14:49:30 23/02/2018 Pushing on "com.gmanmi.youscoop:id/menu_submit_picture".
+[i] [14:49:36] At context ReportManager: Adding step to test execution
+[i] [14:49:36] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_photo_icon search_imageview_by_resourceid".
+[i] [14:49:36] At context ObjectsSelenium: Looking for resourceid_addfeedpage_photo_icon search_imageview_by_resourceid in object repository
+[i] [14:49:36] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/photo search_imageview_by_resourceid in standard object library
+[D] [14:49:36] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/photo']
+[i] [14:49:37] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_photo_icon --> com.gmanmi.youscoop:id/photo
+[i] [14:49:37] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/photo".
+[i] [14:49:39] At context ObjectsSelenium: Looking for resourceid_addfeedpage_photo_icon search_imageview_by_resourceid in object repository
+[i] [14:49:39] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/photo search_imageview_by_resourceid in standard object library
+[D] [14:49:39] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/photo']
+[i] [14:49:40] At context ReportManager: [passed] 14:49:37 23/02/2018 Pushing on "com.gmanmi.youscoop:id/photo".
+[i] [14:49:40] At context ReportManager: Adding step to test execution
+[i] [14:49:40] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_usecamera_button search_button_by_resourceid".
+[i] [14:49:40] At context ObjectsSelenium: Looking for resourceid_addfeedpage_usecamera_button search_button_by_resourceid in object repository
+[i] [14:49:40] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/btn_camera search_button_by_resourceid in standard object library
+[D] [14:49:40] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/btn_camera']
+[i] [14:49:40] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_usecamera_button --> com.gmanmi.youscoop:id/btn_camera
+[i] [14:49:40] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/btn_camera".
+[i] [14:49:43] At context ObjectsSelenium: Looking for resourceid_addfeedpage_usecamera_button search_button_by_resourceid in object repository
+[i] [14:49:43] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/btn_camera search_button_by_resourceid in standard object library
+[D] [14:49:43] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/btn_camera']
+[i] [14:49:43] At context ReportManager: [passed] 14:49:40 23/02/2018 Pushing on "com.gmanmi.youscoop:id/btn_camera".
+[i] [14:49:43] At context ReportManager: Adding step to test execution
+[i] [14:49:43] At context GenericAndroid: Checking existence of "camera icon".
+[i] [14:49:43] At context ObjectsSelenium: Looking for camera icon in object repository
+[D] [14:49:43] At context ObjectsSelenium: //GLButton[@index=4]
+[i] [14:49:45] At context GenericAndroid: Pushing on "camera".
+[i] [14:49:51] At context ObjectsSelenium: Looking for camera icon in object repository
+[D] [14:49:51] At context ObjectsSelenium: //GLButton[@index=4]
+[i] [14:49:53] At context ReportManager: [passed] 14:49:45 23/02/2018 Pushing on "camera".
+[i] [14:49:53] At context ReportManager: Adding step to test execution
+[i] [14:49:53] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_ok_textview search_textview_by_resourceid".
+[i] [14:49:53] At context ObjectsSelenium: Looking for resourceid_addfeedpage_ok_textview search_textview_by_resourceid in object repository
+[i] [14:49:53] At context ObjectsSelenium: Looking for com.sec.android.app.camera:id/okay search_textview_by_resourceid in standard object library
+[D] [14:49:53] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.sec.android.app.camera:id/okay']
+[i] [14:49:53] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_ok_textview --> com.sec.android.app.camera:id/okay
+[i] [14:49:53] At context GenericAndroid: Pushing on "com.sec.android.app.camera:id/okay".
+[i] [14:49:57] At context ObjectsSelenium: Looking for resourceid_addfeedpage_ok_textview search_textview_by_resourceid in object repository
+[i] [14:49:57] At context ObjectsSelenium: Looking for com.sec.android.app.camera:id/okay search_textview_by_resourceid in standard object library
+[D] [14:49:57] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.sec.android.app.camera:id/okay']
+[i] [14:49:58] At context ReportManager: [passed] 14:49:53 23/02/2018 Pushing on "com.sec.android.app.camera:id/okay".
+[i] [14:49:58] At context ReportManager: Adding step to test execution
+[i] [14:49:58] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:49:58] At context ObjectsSelenium: Looking for resourceid_addfeedpage_details_edittext search_edittext_by_resourceid in object repository
+[i] [14:49:58] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/details search_edittext_by_resourceid in standard object library
+[D] [14:49:58] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/details']
+[i] [14:49:59] At context GenericAndroid: Sending text "Selfie on office" to object "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:49:59] At context ObjectsSelenium: Looking for resourceid_addfeedpage_details_edittext search_edittext_by_resourceid in object repository
+[i] [14:49:59] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/details search_edittext_by_resourceid in standard object library
+[D] [14:49:59] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/details']
+[i] [14:50:05] At context GenericAndroid: Closing the keyboard...
+[W] [14:50:06] At context GenericAndroid: Cannot hide keyboard. It isn't present.
+[i] [14:50:06] At context ReportManager: Obtaining screenshot of step
+[i] [14:50:08] At context ReportManager: [passed] 14:50:06 23/02/2018 Sending text "Selfie on office" to object "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:50:08] At context ReportManager: Adding step to test execution
+[i] [14:50:08] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:50:08] At context ObjectsSelenium: Looking for resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid in object repository
+[i] [14:50:08] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/contact search_edittext_by_resourceid in standard object library
+[D] [14:50:08] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/contact']
+[i] [14:50:09] At context GenericAndroid: Sending text "9123456789" to object "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:50:09] At context ObjectsSelenium: Looking for resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid in object repository
+[i] [14:50:09] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/contact search_edittext_by_resourceid in standard object library
+[D] [14:50:09] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/contact']
+[i] [14:50:15] At context GenericAndroid: Closing the keyboard...
+[W] [14:50:15] At context GenericAndroid: Cannot hide keyboard. It isn't present.
+[i] [14:50:15] At context ReportManager: Obtaining screenshot of step
+[i] [14:50:18] At context ReportManager: [passed] 14:50:15 23/02/2018 Sending text "9123456789" to object "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:50:18] At context ReportManager: Adding step to test execution
+[i] [14:50:18] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:50:18] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:50:18] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:50:18] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:50:18] At context GenericAndroid: getting literal of the: resourceid_main_menu --> android:id/home
+[i] [14:50:18] At context GenericAndroid: Pushing on "android:id/home".
+[i] [14:50:21] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:50:21] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:50:21] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:50:21] At context ReportManager: [passed] 14:50:18 23/02/2018 Pushing on "android:id/home".
+[i] [14:50:21] At context ReportManager: Adding step to test execution
+[i] [14:50:21] At context GenericAndroid: Checking existence of "resourceid_camera_icon search_button_by_resourceid".
+[i] [14:50:21] At context ObjectsSelenium: Looking for resourceid_camera_icon search_button_by_resourceid in object repository
+[i] [14:50:21] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/menu_submit_picture search_button_by_resourceid in standard object library
+[D] [14:50:21] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/menu_submit_picture']
+[i] [14:50:22] At context GenericAndroid: getting literal of the: resourceid_camera_icon --> com.gmanmi.youscoop:id/menu_submit_picture
+[i] [14:50:22] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/menu_submit_picture".
+[i] [14:50:28] At context ObjectsSelenium: Looking for resourceid_camera_icon search_button_by_resourceid in object repository
+[i] [14:50:28] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/menu_submit_picture search_button_by_resourceid in standard object library
+[D] [14:50:28] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/menu_submit_picture']
+[i] [14:50:28] At context ReportManager: [passed] 14:50:22 23/02/2018 Pushing on "com.gmanmi.youscoop:id/menu_submit_picture".
+[i] [14:50:28] At context ReportManager: Adding step to test execution
+[i] [14:50:28] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_video_icon search_imageview_by_resourceid".
+[i] [14:50:28] At context ObjectsSelenium: Looking for resourceid_addfeedpage_video_icon search_imageview_by_resourceid in object repository
+[i] [14:50:28] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/video search_imageview_by_resourceid in standard object library
+[D] [14:50:28] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/video']
+[i] [14:50:29] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_video_icon --> com.gmanmi.youscoop:id/video
+[i] [14:50:29] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/video".
+[i] [14:50:32] At context ObjectsSelenium: Looking for resourceid_addfeedpage_video_icon search_imageview_by_resourceid in object repository
+[i] [14:50:32] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/video search_imageview_by_resourceid in standard object library
+[D] [14:50:32] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/video']
+[i] [14:50:32] At context ReportManager: [passed] 14:50:29 23/02/2018 Pushing on "com.gmanmi.youscoop:id/video".
+[i] [14:50:32] At context ReportManager: Adding step to test execution
+[i] [14:50:32] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_usecamera_button search_button_by_resourceid".
+[i] [14:50:32] At context ObjectsSelenium: Looking for resourceid_addfeedpage_usecamera_button search_button_by_resourceid in object repository
+[i] [14:50:32] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/btn_camera search_button_by_resourceid in standard object library
+[D] [14:50:32] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/btn_camera']
+[i] [14:50:33] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_usecamera_button --> com.gmanmi.youscoop:id/btn_camera
+[i] [14:50:33] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/btn_camera".
+[i] [14:50:36] At context ObjectsSelenium: Looking for resourceid_addfeedpage_usecamera_button search_button_by_resourceid in object repository
+[i] [14:50:36] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/btn_camera search_button_by_resourceid in standard object library
+[D] [14:50:36] At context ObjectsSelenium: //android.widget.Button[@resource-id='com.gmanmi.youscoop:id/btn_camera']
+[i] [14:50:36] At context ReportManager: [passed] 14:50:33 23/02/2018 Pushing on "com.gmanmi.youscoop:id/btn_camera".
+[i] [14:50:36] At context ReportManager: Adding step to test execution
+[i] [14:50:36] At context GenericAndroid: Checking existence of "startvid icon".
+[i] [14:50:36] At context ObjectsSelenium: Looking for startvid icon in object repository
+[D] [14:50:36] At context ObjectsSelenium: //GLButton[@index=3]
+[i] [14:50:37] At context GenericAndroid: Pushing on "startvid".
+[i] [14:50:43] At context ObjectsSelenium: Looking for startvid icon in object repository
+[D] [14:50:43] At context ObjectsSelenium: //GLButton[@index=3]
+[i] [14:50:44] At context ReportManager: [passed] 14:50:37 23/02/2018 Pushing on "startvid".
+[i] [14:50:44] At context ReportManager: Adding step to test execution
+[i] [14:50:44] At context GenericAndroid: Checking existence of "stopvid icon".
+[i] [14:50:44] At context ObjectsSelenium: Looking for stopvid icon in object repository
+[D] [14:50:44] At context ObjectsSelenium: //GLButton[@index=1]
+[i] [14:50:44] At context GenericAndroid: Pushing on "stopvid".
+[i] [14:50:51] At context ObjectsSelenium: Looking for stopvid icon in object repository
+[D] [14:50:51] At context ObjectsSelenium: //GLButton[@index=1]
+[i] [14:50:53] At context ReportManager: [passed] 14:50:44 23/02/2018 Pushing on "stopvid".
+[i] [14:50:53] At context ReportManager: Adding step to test execution
+[i] [14:50:53] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_ok_textview search_textview_by_resourceid".
+[i] [14:50:53] At context ObjectsSelenium: Looking for resourceid_addfeedpage_ok_textview search_textview_by_resourceid in object repository
+[i] [14:50:53] At context ObjectsSelenium: Looking for com.sec.android.app.camera:id/okay search_textview_by_resourceid in standard object library
+[D] [14:50:53] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.sec.android.app.camera:id/okay']
+[i] [14:50:54] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_ok_textview --> com.sec.android.app.camera:id/okay
+[i] [14:50:54] At context GenericAndroid: Pushing on "com.sec.android.app.camera:id/okay".
+[i] [14:50:59] At context ObjectsSelenium: Looking for resourceid_addfeedpage_ok_textview search_textview_by_resourceid in object repository
+[i] [14:50:59] At context ObjectsSelenium: Looking for com.sec.android.app.camera:id/okay search_textview_by_resourceid in standard object library
+[D] [14:50:59] At context ObjectsSelenium: //android.widget.TextView[@resource-id='com.sec.android.app.camera:id/okay']
+[i] [14:51:00] At context ReportManager: [passed] 14:50:54 23/02/2018 Pushing on "com.sec.android.app.camera:id/okay".
+[i] [14:51:00] At context ReportManager: Adding step to test execution
+[i] [14:51:00] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_play_selected_video search_imageview_by_resourceid".
+[i] [14:51:00] At context ObjectsSelenium: Looking for resourceid_addfeedpage_play_selected_video search_imageview_by_resourceid in object repository
+[i] [14:51:00] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/video_indicator_img search_imageview_by_resourceid in standard object library
+[D] [14:51:00] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/video_indicator_img']
+[i] [14:51:00] At context GenericAndroid: getting literal of the: resourceid_addfeedpage_play_selected_video --> com.gmanmi.youscoop:id/video_indicator_img
+[i] [14:51:00] At context GenericAndroid: Pushing on "com.gmanmi.youscoop:id/video_indicator_img".
+[i] [14:51:03] At context ObjectsSelenium: Looking for resourceid_addfeedpage_play_selected_video search_imageview_by_resourceid in object repository
+[i] [14:51:03] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/video_indicator_img search_imageview_by_resourceid in standard object library
+[D] [14:51:03] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='com.gmanmi.youscoop:id/video_indicator_img']
+[i] [14:51:04] At context ReportManager: [passed] 14:51:00 23/02/2018 Pushing on "com.gmanmi.youscoop:id/video_indicator_img".
+[i] [14:51:04] At context ReportManager: Adding step to test execution
+[i] [14:51:04] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:51:04] At context ObjectsSelenium: Looking for resourceid_addfeedpage_details_edittext search_edittext_by_resourceid in object repository
+[i] [14:51:04] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/details search_edittext_by_resourceid in standard object library
+[D] [14:51:04] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/details']
+[i] [14:51:13] At context GenericAndroid: Sending text "Selfie on office" to object "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:51:13] At context ObjectsSelenium: Looking for resourceid_addfeedpage_details_edittext search_edittext_by_resourceid in object repository
+[i] [14:51:13] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/details search_edittext_by_resourceid in standard object library
+[D] [14:51:13] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/details']
+[i] [14:51:20] At context GenericAndroid: Closing the keyboard...
+[W] [14:51:20] At context GenericAndroid: Cannot hide keyboard. It isn't present.
+[i] [14:51:20] At context ReportManager: Obtaining screenshot of step
+[i] [14:51:23] At context ReportManager: [passed] 14:51:20 23/02/2018 Sending text "Selfie on office" to object "resourceid_addfeedpage_details_edittext search_edittext_by_resourceid".
+[i] [14:51:23] At context ReportManager: Adding step to test execution
+[i] [14:51:23] At context GenericAndroid: Checking existence of "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:51:23] At context ObjectsSelenium: Looking for resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid in object repository
+[i] [14:51:23] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/contact search_edittext_by_resourceid in standard object library
+[D] [14:51:23] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/contact']
+[i] [14:51:23] At context GenericAndroid: Sending text "9123456789" to object "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:51:23] At context ObjectsSelenium: Looking for resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid in object repository
+[i] [14:51:23] At context ObjectsSelenium: Looking for com.gmanmi.youscoop:id/contact search_edittext_by_resourceid in standard object library
+[D] [14:51:23] At context ObjectsSelenium: //android.widget.EditText[@resource-id='com.gmanmi.youscoop:id/contact']
+[i] [14:51:29] At context GenericAndroid: Closing the keyboard...
+[W] [14:51:30] At context GenericAndroid: Cannot hide keyboard. It isn't present.
+[i] [14:51:30] At context ReportManager: Obtaining screenshot of step
+[i] [14:51:32] At context ReportManager: [passed] 14:51:30 23/02/2018 Sending text "9123456789" to object "resourceid_addfeedpage_contactdetails_edittext search_edittext_by_resourceid".
+[i] [14:51:32] At context ReportManager: Adding step to test execution
+[i] [14:51:32] At context GenericAndroid: Waiting 2 seconds.
+[i] [14:51:34] At context GenericAndroid: Checking existence of "resourceid_main_menu search_imageview_by_resourceid".
+[i] [14:51:34] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:51:34] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:51:34] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:51:34] At context GenericAndroid: getting literal of the: resourceid_main_menu --> android:id/home
+[i] [14:51:34] At context GenericAndroid: Pushing on "android:id/home".
+[i] [14:51:37] At context ObjectsSelenium: Looking for resourceid_main_menu search_imageview_by_resourceid in object repository
+[i] [14:51:37] At context ObjectsSelenium: Looking for android:id/home search_imageview_by_resourceid in standard object library
+[D] [14:51:37] At context ObjectsSelenium: //android.widget.ImageView[@resource-id='android:id/home']
+[i] [14:51:41] At context ReportManager: [passed] 14:51:34 23/02/2018 Pushing on "android:id/home".
+[i] [14:51:41] At context ReportManager: Adding step to test execution
+[i] [14:51:41] At context IOReport: Angular Report will be stored in:testReport/
+[i] [14:51:41] At context IOReport: Printing in json format
+[D] [14:51:41] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[D] [14:51:41] At context IOReport: DEVICE: ce0617167d73a47b0d
+[D] [14:51:41] At context IOReport: BUILD LIST SIZE: 50
+[i] [14:51:41] At context IOReport: testList = [indra.cilantrum.report.TestIndexPojo@1]
+[i] [14:51:41] At context IOReport: json reporting finished. Files are in testReport/tests/51/1.json
+[D] [14:51:41] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[i] [14:51:41] At context DriverManager: Tearing down drivers...

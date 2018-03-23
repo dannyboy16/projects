@@ -1,0 +1,6 @@
+search_component_by_id = xpath//*[@id="%%"]
+search_button_by_text = xpath//button[contains(text(),'%%')]
+search_div_by_class = xpath//div[@class = '%%']
+search_h1_by_text = xpath//h1[contains(text(),'%%')]
+
+search_a_by_text = xpath//a[contains(text(),'%%')]

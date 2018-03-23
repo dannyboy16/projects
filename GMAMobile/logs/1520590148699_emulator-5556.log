@@ -1,0 +1,51 @@
+[i] [18:09:08] At context IOExcel: Reading test names from excel...
+[i] [18:09:08] At context IOExcel: Test list successfully loaded from excel.
+[i] [18:09:09] At context IOExcel: Reading parameters from excel...
+[i] [18:09:09] At context IOExcel: Test data successfully loaded from excel.
+[i] [18:09:09] At context NavigateMobileWebTest: 
+--- Executing ---
+	Suite: NavigateMobileWebSuite
+	Test case: NavigateMobileWebTest
+	Description: null
+	On device: emulator-5556
+[i] [18:09:09] At context GenericAndroid: Navigating to 'http://www.gmanetwork.com/news/'.
+[D] [18:09:21] At context NavigateMobileWebReusable: Loading reusable parameters: 0
+[i] [18:09:21] At context GenericAndroid: Hovering and pushing on "side_menu menu".
+[i] [18:09:21] At context ObjectsSelenium: Looking for side_menu menu in object repository
+[D] [18:09:21] At context ObjectsSelenium: //*[@id="dropdownMenu1"]
+[i] [18:09:21] At context ReportManager: Obtaining screenshot of step
+[i] [18:09:22] At context ReportManager: [passed] 18:09:21 09/03/2018 Hovering and pushing on "side_menu menu".
+[i] [18:09:22] At context ReportManager: Adding step to test execution
+[i] [18:09:22] At context GenericAndroid: Waiting 3 seconds.
+[i] [18:09:25] At context GenericAndroid: Hovering and pushing on "side_menu menu".
+[i] [18:09:25] At context ObjectsSelenium: Looking for side_menu menu in object repository
+[D] [18:09:25] At context ObjectsSelenium: //*[@id="dropdownMenu1"]
+[i] [18:09:25] At context ReportManager: Obtaining screenshot of step
+[i] [18:09:26] At context ReportManager: [passed] 18:09:25 09/03/2018 Hovering and pushing on "side_menu menu".
+[i] [18:09:26] At context ReportManager: Adding step to test execution
+[i] [18:09:26] At context GenericAndroid: Waiting 3 seconds.
+[i] [18:09:29] At context GenericAndroid: Hovering and pushing on "top_menu menu".
+[i] [18:09:29] At context ObjectsSelenium: Looking for top_menu menu in object repository
+[D] [18:09:29] At context ObjectsSelenium: //div[contains(@class,'hdr-toggle')]/span
+[i] [18:09:29] At context ReportManager: Obtaining screenshot of step
+[i] [18:09:30] At context ReportManager: [passed] 18:09:29 09/03/2018 Hovering and pushing on "top_menu menu".
+[i] [18:09:30] At context ReportManager: Adding step to test execution
+[i] [18:09:30] At context GenericAndroid: Waiting 2 seconds.
+[i] [18:09:32] At context GenericAndroid: Waiting 2 seconds.
+[i] [18:09:34] At context GenericAndroid: Hovering and pushing on "search_icon icon".
+[i] [18:09:34] At context ObjectsSelenium: Looking for search_icon icon in object repository
+[D] [18:09:34] At context ObjectsSelenium: //div[contains(@class,'hdr-search')]/span
+[i] [18:09:34] At context ReportManager: Obtaining screenshot of step
+[i] [18:09:34] At context ReportManager: [passed] 18:09:34 09/03/2018 Hovering and pushing on "search_icon icon".
+[i] [18:09:34] At context ReportManager: Adding step to test execution
+[i] [18:09:34] At context GenericAndroid: Waiting 2 seconds.
+[i] [18:09:36] At context GenericAndroid: Waiting 2 seconds.
+[i] [18:09:39] At context IOReport: Angular Report will be stored in:testReport/
+[i] [18:09:39] At context IOReport: Printing in json format
+[D] [18:09:39] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[D] [18:09:39] At context IOReport: DEVICE: emulator-5556
+[D] [18:09:39] At context IOReport: BUILD LIST SIZE: 56
+[i] [18:09:39] At context IOReport: testList = [indra.cilantrum.report.TestIndexPojo@1]
+[i] [18:09:39] At context IOReport: json reporting finished. Files are in testReport/tests/57/1.json
+[D] [18:09:39] At context IOReport: TESTFOLDERPATH: testReport/tests/
+[i] [18:09:39] At context DriverManager: Tearing down drivers...
