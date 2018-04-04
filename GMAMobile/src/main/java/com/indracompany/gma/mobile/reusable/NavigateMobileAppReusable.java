@@ -223,6 +223,13 @@ public class NavigateMobileAppReusable extends CilantrumReusable{
 	}
 	
 	public void addFeedVideo() throws ExecutionException{
+		//dgarfin test for jenkins-git POC
+		if(exists("resourceid_camera_icon", 50)){
+			pushOn("resourceid_camera_icon");
+		}else{
+			reportError("DCG Camera icon is not displayed",true,null,false);
+		}
+		
 		//click camera icon
 		if(exists("resourceid_camera_icon search_button_by_resourceid", 50)){
 			pushOn("resourceid_camera_icon search_button_by_resourceid");
