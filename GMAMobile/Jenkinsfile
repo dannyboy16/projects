@@ -35,4 +35,5 @@ node {
             app.push("latest")
         }
     }
+    /* adding comment into jenkinsfile */
 }
