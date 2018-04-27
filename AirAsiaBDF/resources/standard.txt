@@ -1,0 +1,71 @@
+input = id
+div = id
+a = id
+select = id
+spanid = id
+ins = id
+img = id
+p = id
+button = id
+span = class
+search_div_by_class = xpath//div[contains(@class,'%%')]
+search_img_by_class = xpath//img[contains(@class,'%%')]
+search_a_by_class = xpath//a[contains(@class,'%%')]
+search_p_by_class = xpath//p[contains(@class,'%%')]
+search_button_by_class = xpath//button[contains(@class,'%%')]
+option = value
+li = data-value
+inputvalue = value
+pack = data-bundle
+alanguage = language
+search_button_by_text = xpath//button[contains(text(),'%%')]
+search_div_by_text = xpath//div[contains(text(),'%%')]
+search_a_by_text = xpath//a[contains(text(),'%%')]
+search_span_by_text = xpath//span[contains(text(),'%%')]
+search_li_by_text = xpath//li[contains(text(),'%%')]
+search_p_by_text = xpath//p[contains(text(),'%%')]
+search_h5_by_text = xpath//h5[contains(text(),'%%')]
+search_h4_by_text = xpath//h4[contains(text(),'%%')]
+search_h3_by_text = xpath//h3[contains(text(),'%%')] 
+search_input_by_placeholder = xpath//input[@placeholder='%%']
+search_custom_xpath = xpath//%%
+search_component_by_id = xpath//*[@id="%%"]
+
+productname = xpath//p[@class='product-name' and contains(text(), '%%')]
+menucategory = xpath//div[@class='row categories-nav-mm']/ul/li/a[contains(text(), '%%')]
+porigtext = xpath//p[@class='discounted-price original-price' and contains(text(),'%%')]
+pdiscountedtext = xpath//p[contains(@class,'discounted-price') and contains(text(),'%%')]
+heartdivclass = xpath//*[@id="gridBox1"]/div[1]/div[1]/div/bdf-add-to-wishlist-button/div[@class='%%']
+classcartimg = xpath//header[contains(@class,'%%')]/div/div[2]/bdf-shopping-cart/div/div/div/a/img
+selectclass = xpath//select[@class='%%' and @name='credit-card-select']
+search_input_btn = xpath//header[contains(@class, '%%')]/div/bdf-search/div/div/div/div/img
+search_input = xpath//header[contains(@class, '%%')]/div/bdf-search/div/div/div/div[2]/input
+product_details_add_to_cart_btn = xpath//*[@id='%%']/div[2]/div/div[1]/bdf-add-to-cart-button/button								  
+website_logo_img_div = xpath//div[contains(@class, '%%')]/div[1]/div/img
+product_color_pref_color_btn = xpath//*[@id='%%']/div[1]/div/div[2]/div[1]/div
+cart_icon_img = xpath//header[contains(@class,'%%')]/div/div[2]/bdf-shopping-cart/div/div/div/a/img
+search_input_btn_portrait = xpath//div[contains(@class, '%%')]/bdf-search/div/div/div/div/img
+search_input_portrait = xpath//div[contains(@class, '%%')]/bdf-search/div/div/div/div[2]/input
+website_logo_div_portrait = xpath//div[contains(@class,'%%')]/div[2]/div/img
+cart_icon_img_portrait = xpath//header[contains(@class,'%%')]/div/div[4]/bdf-shopping-cart/div/div[1]/div/a/img
+menu_choices_link = xpath//*[@id="%%"]/li[1]/a
+product_dropdown_option = xpath//div[contains(@class,'%%')]/div/div/h5/img
+search_input_btn = xpath//header[contains(@class, '%%')]/div/bdf-search/div/div/div/div/img
+search_input = xpath//header[contains(@class, '%%')]/div/bdf-search/div/div/div/div[2]/input
+product_details_add_to_cart_btn = xpath//*[@id='%%']/div[2]/div/div[1]/bdf-add-to-cart-button/button								  
+website_logo_img_div = xpath//div[contains(@class, '%%')]/div[1]/div/img
+cart_icon_img = xpath//header[contains(@class,'%%')]/div/div[2]/bdf-shopping-cart/div/div/div/a/img
+search_input_btn_portrait = xpath//div[contains(@class, '%%')]/bdf-search/div/div/div/div/img
+search_input_portrait = xpath//div[contains(@class, '%%')]/bdf-search/div/div/div/div[2]/input
+website_logo_div_portrait = xpath//div[contains(@class,'%%')]/div[2]/div/img
+cart_icon_img_portrait = xpath//header[contains(@class,'%%')]/div/div[4]/bdf-shopping-cart/div/div[1]/div/a/img
+menu_choices_link = xpath//*[@id="%%"]/li[1]/a
+product_dropdown_option = xpath//div[contains(@class,'%%')]/div/div/h5/img
+search_link_by_span_class = xpath//span[contains(@class,'login-sign-up')]/a
+addcart_from_wishlist_button = xpath//div[contains(@class, 'my-wishlist-wrapper')]/div[2]/div[1]/div[2]/div[3]/div/bdf-add-to-cart-button/button/div/span[contains(@text, '%%')]
+
+
+select_menu_by_text = xpath//airasia-header/header[2]/div[2]/ul/li[contains(.//a,'%%')]
+select_currency = xpath//div[contains(@class,'col currency-dropdown')]/div[2]/ul/li/p/a[contains(text(),'%%')]
+
+email_message = xpath//span[contains(text(),'%%')]

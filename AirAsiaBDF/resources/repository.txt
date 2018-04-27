@@ -1,0 +1,110 @@
+# This file provides a simple way to register objects that you can't define an standard definition.
+#
+# SYNTAX: objectname = localization
+#	An objectname is the name you want to define for your object located in repository
+#	A localization is an expression that identifies your object uniquely. Actually it's only allowed to
+#		register xpath expressions. The xpath expression must be preceded with 'xpath' word.
+#
+# EXAMPLES:
+# 	my repository object 		= xpath//*[@id='objectid']
+#	another repository object	= xpath//*[@id='anotherid']
+#	repository button object	= xpath//button[@id='myid']
+#
+# USAGE:
+#	pushOn("my repository object");
+#	verify("another repository object");
+#	if (exists("repository button object", 3))
+#		pushOn("repository button object");
+#
+####################################################################################################
+productgrid product = xpath//*[@id="gridBox0"]/div[1]/div[1]/a/img
+flightvalue span = xpath//*[@class='delivery-options']/div/div[2]/div[1]/span[2]/span/span
+flighttypevalue span =  xpath//*[@class='delivery-options']/div/div[2]/div[2]/span[2]/span/span
+productinfo p =  xpath//*[@class='product-info']/div/div[2]/div/p
+cart image = xpath//header[contains(@class,'medium-and-up')]/div/div[2]/bdf-shopping-cart/div/div/div/a/img
+anonymousflightdetails input = xpath//div[@class='booking-number']/div/div[2]/input
+selectflightdetails select = xpath//div/div/content/bdf-cart/div/div/div[1]/bdf-deliver-to/div/div/div[1]/select[1]
+selectrecipientdetails select = xpath//div/div/content/bdf-cart/div/div/div[1]/bdf-deliver-to/div/div/div[2]/select
+addmessage div = xpath//div[@class='col s12 deliver-booking m5']/bdf-additional-message/textarea
+ccmonth div = xpath//div/div/content/bdf-payment/div/div/div[2]/div[2]/bdf-payment-options/bdf-payment-without-cards/div/div/div[2]/form/div[4]/div[1]/select
+ccyear div = xpath//div/div/content/bdf-payment/div/div/div[2]/div[2]/bdf-payment-options/bdf-payment-without-cards/div/div/div[2]/form/div[4]/div[2]/select
+tflight select = xpath//div/bdf-flight-header/div/div[2]/div/div/div/div/select
+orderno div = xpath//div[contains(@class,'confirmation-wrapper')]/div/div[2]/div[1]/p[1]
+purchasedate div = xpath//div[contains(@class,'confirmation-wrapper')]/div/div[2]/div[1]/p[3]
+freegift div = xpath//div/div/content/bdf-product/div/div[2]/div[1]/div[2]/bdf-free-gift/div/div/div[2]/div/div[2]/div
+wishlistaddtocard span2 = xpath//div/div/content/bdf-my-wishlist/div/div/div[2]/div[1]/div[2]/div[3]/div/bdf-add-to-cart-button/button/div/span
+closebutton img2 = xpath//*[@id="product-category-height"]/div/bdf-product-list/div[1]/bdf-popuplogin/div/span/div/img
+clearcart img = xpath//div/div/content/bdf-cart/div/bdf-cart-items/main/div/div/div/div/div[2]/div[1]/button/img
+loading_icon loadingicon = xpath//bdf-spinner
+item_added_icon checkicon = xpath//img[contains(@class,'check')]
+menu_icon menuicon = xpath//img[contains(@class,'menu-icon')]
+menu_gifts_and_accessories link = xpath//ul[contains(@class, 'menu_horizontal')]/li[7]
+login_link link = xpath//ul[contains(@class,'side-nav sub-menu')]/li[1]/div/div/div[2]/span/a	
+size_selected_value text = xpath//*[@id="size"]/option[text()='L']
+menu_alcohol link = xpath//ul[contains(@class, 'menu_horizontal')]/li[2] 
+pic img = xpath//img[contains(@class,'free-gift-thumbnail')]
+div_freegift div = xpath//div[contains(@class,'bdf-dropdown-content free-gift-div')]
+product_price text = xpath//p[contains(@class,'discounted-price')][1]
+product_flight_number text = xpath//div[contains(@class,'delivery-options')]/div/div[2]/div[1]/span[2]/span/span
+product_flight_type text = xpath//div[contains(@class,'delivery-options')]/div/div[2]/div[2]/span[2]/span/span
+product_information text = xpath//div[contains(@class,'product-info')]/div/div[2]/div/p
+cn_product_information text = xpath//div[contains(@class,'product-info')]/div/div[2]/div
+product_free_gift div = xpath//div[contains(@class,'bdf-dropdown-content free-gift-div')]
+deliverto sample = xpath//div[contains(@class,'deliverto')]/div[2]/select
+clearwishlist icon = xpath//div[contains(@class, 'my-wishlist-wrapper')]/div[2]/div[1]/div[2]/a[1]/img
+cleacartlist icon =	xpath//div[contains(@class, 'section_wrapper')]/div[1]/div[2]/div[1]/button[@class='close']
+
+removeproduct icon = xpath//img[contains(@class,'clear')][1]
+loggedusermenu icon = xpath//div[contains(@class,'login-shop-wrapper')]/div/div/div[2]/div/div[1]/div/div[2]/a/img
+logout link = xpath//a[contains(text(),'LOGOUT')]
+
+
+dot icon = xpath//ul[contains(@class, 'menu_horizontal')]/li[9]
+alchohol link = xpath//header[contains(@class,'medium-and-up')]/div[2]/div/ul/li/a
+
+productcatalog box = xpath//*[@id="product-category-height"]/div/bdf-product-list/main/div[1]
+
+card_agreement_terms checkbox = xpath//div[@class='payment-options-wrapper']/div[2]/form/div[7]/div[1]/input
+card_continue_pay button = xpath//div[@class='payment-options-wrapper']/div[2]/form/div[8]/div/button
+
+orderProductPrice div= xpath//div[contains(@class,'price-and-qty')]/div/p
+
+email_username field = xpath//*[@id="login-username"]
+email_pw field = xpath//*[@id="login-passwd"]
+email_username_next button = xpath//*[@id="login-signin"]
+email_pw_next button = xpath//*[@id="login-signin"]
+email_inbox link = xpath//*[@id=":4q"]/div/div[2]/span/a
+email_message link = xpath//table/tbody/tr[1]/td[6]/div/div/div/span/b
+email_success_verification div = xpath//table[2]/tbody/tr[2]/td
+
+
+currency_arrow icon = xpath//div[contains(@class,'medium-and-up')]/div/div[2]/div/div[3]/div/div[2]/a/img
+internet_banking div = xpath//div[contains(@class,'payment-options-wrapper')]/div[1]/ul/li[2]
+alipay_icon radiobutton = xpath//html/body/app-root/div/div/content/bdf-payment/div/div/div[2]/div[2]/bdf-payment-options/bdf-payment-without-cards/div/div/div[2]/div[1]/div[3]/input
+alipay_agreement_terms checkbox = xpath//div[contains(@class,'payment-options-wrapper')]/div[2]/div[3]/div[1]/input
+alipay_confirmation_approve button = xpath//*[@id="simALIPAY:btnApprove"]/span 
+
+unionpay_banking div = xpath//div[contains(@class,'payment-options-wrapper')]/div[1]/ul/li[3]
+union_and_fpx_icon radiobutton = xpath//html/body/app-root/div/div/content/bdf-payment/div/div/div[2]/div[2]/bdf-payment-options/bdf-payment-without-cards/div/div/div[2]/div[1]/div[2]/input
+fpx_confirmation_approve button = xpath//*[@id="simFPX:btnApprove"]/span
+fpx_agreement_terms checkbox = xpath//div[contains(@class,'payment-options-wrapper')]/div[2]/div[4]/div[1]/input
+unionpay_agreement_terms checkbox = xpath//div[contains(@class,'payment-options-wrapper')]/div[2]/div[3]/div[1]/input
+unionpay_confirmation_approve button = xpath//*[@id="simCUPPBB:btnApprove"]/span
+
+language_arrow icon = xpath//div[contains(@class,'medium-and-up')]/div/div[2]/div/div[2]/div/div[3]/a/img
+zh_language link = xpath//div[contains(@class,'col language-dropdown')]/ul[2]/li/p/a
+
+email_message link = xpath//table/tbody/tr[1]/td[6]/div/div/div/span/b
+
+feedback button = xpath//*[@id="feedback-button"]
+feedback div = xpath//*[@id="feedback-input"]
+feedback textarea = xpath//*[@id="feedback-input"]/textarea
+feedback_email textarea = xpath//*[@id="feedback-input"]/div[1]/div/input
+feedback closediv = xpath//*[@id="feedback-input"]/header/div
+feedback_send button = xpath//*[@id="feedback-input"]/div[2]/div/button
+feedback_success message = xpath//*[@id="feedback-thankyou"]/header/h3
+feedback_success closediv = xpath//*[@id="feedback-thankyou"]/header/div
+
+pwpproduct_addtocart button = xpath//button[contains(@class,'bdf-btn primary waves-effect')]/div/span
+
+print_receipt link = xpath//a[contains(text(),'Print Receipt')]

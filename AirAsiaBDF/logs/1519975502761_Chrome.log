@@ -1,0 +1,111 @@
+[i] [15:25:02] At context IOExcel: Reading test names from excel...
+[i] [15:25:02] At context IOExcel: Test list successfully loaded from excel.
+[W] [15:25:02] At context EndToEndWebSuite: You've loaded in your suite less tests than excel data sheet informs.
+[i] [15:25:03] At context IOExcel: Reading parameters from excel...
+[i] [15:25:03] At context IOExcel: Test data successfully loaded from excel.
+[i] [15:25:03] At context EndToEndWebLoginTest: 
+--- Executing ---
+	Suite: EndToEndWebSuite
+	Test case: EndToEndWebLoginTest
+	Description: To be able to successfully complete an end to end transaction when there is login credentials.
+	On device: Chrome
+[i] [15:25:03] At context GenericWeb: Clearing web cookies
+[i] [15:25:04] At context GenericWeb: Navigating to 'http://stg.rokkishop.com/'.
+[D] [15:25:11] At context EndToEndWebTransactionReusable: Loading reusable parameters: 1
+[i] [15:25:11] At context GenericWeb: Waiting 3 seconds.
+[i] [15:25:14] At context GenericWeb: Waiting 5 seconds.
+[i] [15:25:19] At context GenericWeb: Hovering and pushing on "login-sign-up search_link_by_span_class".
+[i] [15:25:19] At context ObjectsSelenium: Looking for login-sign-up search_link_by_span_class in object repository
+[i] [15:25:19] At context ObjectsSelenium: Looking for login-sign-up search_link_by_span_class in standard object library
+[D] [15:25:19] At context ObjectsSelenium: //span[contains(@class,'login-sign-up')]/a
+[i] [15:25:35] At context ReportManager: Obtaining screenshot of step
+[i] [15:25:35] At context ReportManager: [passed] 15:25:35 02/03/2018 Hovering and pushing on "login-sign-up search_link_by_span_class".
+[i] [15:25:35] At context ReportManager: Adding step to test execution
+[i] [15:25:35] At context LoginService: Verifying if size selected is correct
+[i] [15:25:35] At context GenericWeb: Checking existence of "id_username_textfield search_component_by_id".
+[i] [15:25:35] At context ObjectsSelenium: Looking for id_username_textfield search_component_by_id in object repository
+[i] [15:25:35] At context ObjectsSelenium: Looking for body_txtUsername search_component_by_id in standard object library
+[D] [15:25:35] At context ObjectsSelenium: //*[@id="body_txtUsername"]
+[i] [15:25:39] At context ReportManager: Obtaining screenshot of step
+[i] [15:25:39] At context ReportManager: [blocked] 15:25:39 02/03/2018 login page is not displayed.
+[i] [15:25:39] At context ReportManager: Adding step to test execution
+[i] [15:25:39] At context GenericWeb: Waiting 3 seconds.
+[i] [15:25:42] At context GenericWeb: Waiting 5 seconds.
+[i] [15:25:47] At context GenericWeb: Hovering and pushing on "login-sign-up search_link_by_span_class".
+[i] [15:25:47] At context ObjectsSelenium: Looking for login-sign-up search_link_by_span_class in object repository
+[i] [15:25:47] At context ObjectsSelenium: Looking for login-sign-up search_link_by_span_class in standard object library
+[D] [15:25:47] At context ObjectsSelenium: //span[contains(@class,'login-sign-up')]/a
+[i] [15:25:50] At context ReportManager: Obtaining screenshot of step
+[i] [15:25:50] At context ReportManager: [failed] 15:25:50 02/03/2018 Hovering and pushing on "login-sign-up search_link_by_span_class".
+[i] [15:25:50] At context ReportManager: Adding step to test execution
+[E] [15:25:50] At context TestReport: Step failed so Test case too
+[i] [15:25:50] At context LoginService: Verifying if size selected is correct
+[i] [15:25:50] At context GenericWeb: Checking existence of "id_username_textfield search_component_by_id".
+[i] [15:25:50] At context ObjectsSelenium: Looking for id_username_textfield search_component_by_id in object repository
+[i] [15:25:50] At context ObjectsSelenium: Looking for body_txtUsername search_component_by_id in standard object library
+[D] [15:25:50] At context ObjectsSelenium: //*[@id="body_txtUsername"]
+[i] [15:25:54] At context ReportManager: Obtaining screenshot of step
+[i] [15:25:54] At context ReportManager: [blocked] 15:25:54 02/03/2018 login page is not displayed.
+[i] [15:25:54] At context ReportManager: Adding step to test execution
+[i] [15:25:54] At context LoginService: Writing values to the login details...
+[i] [15:25:54] At context GenericWeb: Sending text "bdftestauto1@gmail.com" to object "username-input--login search_component_by_id".
+[i] [15:25:54] At context ObjectsSelenium: Looking for username-input--login search_component_by_id in object repository
+[i] [15:25:54] At context ObjectsSelenium: Looking for username-input--login search_component_by_id in standard object library
+[D] [15:25:54] At context ObjectsSelenium: //*[@id="username-input--login"]
+[i] [15:25:55] At context ReportManager: [passed] 15:25:55 02/03/2018 Sending text "bdftestauto1@gmail.com" to object "username-input--login search_component_by_id".
+[i] [15:25:55] At context ReportManager: Adding step to test execution
+[i] [15:25:55] At context GenericWeb: Waiting 3 seconds.
+[i] [15:25:58] At context GenericWeb: Getting property "value" from object "username-input--login search_component_by_id".
+[i] [15:25:58] At context ObjectsSelenium: Looking for username-input--login search_component_by_id in object repository
+[i] [15:25:58] At context ObjectsSelenium: Looking for username-input--login search_component_by_id in standard object library
+[D] [15:25:58] At context ObjectsSelenium: //*[@id="username-input--login"]
+[i] [15:25:58] At context GenericWeb: Sending text "Bdftest123" to object "password-input--login search_component_by_id".
+[i] [15:25:58] At context ObjectsSelenium: Looking for password-input--login search_component_by_id in object repository
+[i] [15:25:58] At context ObjectsSelenium: Looking for password-input--login search_component_by_id in standard object library
+[D] [15:25:58] At context ObjectsSelenium: //*[@id="password-input--login"]
+[i] [15:25:58] At context ReportManager: [passed] 15:25:58 02/03/2018 Sending text "Bdftest123" to object "password-input--login search_component_by_id".
+[i] [15:25:58] At context ReportManager: Adding step to test execution
+[i] [15:25:58] At context GenericWeb: Waiting 3 seconds.
+[i] [15:26:01] At context GenericWeb: Getting property "value" from object "password-input--login search_component_by_id".
+[i] [15:26:01] At context ObjectsSelenium: Looking for password-input--login search_component_by_id in object repository
+[i] [15:26:01] At context ObjectsSelenium: Looking for password-input--login search_component_by_id in standard object library
+[D] [15:26:01] At context ObjectsSelenium: //*[@id="password-input--login"]
+[i] [15:26:01] At context ReportManager: Obtaining screenshot of step
+[i] [15:26:01] At context ReportManager: [passed] 15:26:01 02/03/2018 Values are inputted correctly.
+[i] [15:26:01] At context ReportManager: Adding step to test execution
+[i] [15:26:01] At context GenericWeb: Hovering and pushing on "loginbutton search_component_by_id".
+[i] [15:26:01] At context ObjectsSelenium: Looking for loginbutton search_component_by_id in object repository
+[i] [15:26:01] At context ObjectsSelenium: Looking for loginbutton search_component_by_id in standard object library
+[D] [15:26:01] At context ObjectsSelenium: //*[@id="loginbutton"]
+[i] [15:26:01] At context ReportManager: Obtaining screenshot of step
+[i] [15:26:01] At context ReportManager: [passed] 15:26:01 02/03/2018 Hovering and pushing on "loginbutton search_component_by_id".
+[i] [15:26:01] At context ReportManager: Adding step to test execution
+[i] [15:26:01] At context LoginService: Clicking login button...
+[i] [15:26:01] At context GenericWeb: Waiting 10 seconds.
+[i] [15:26:11] At context GenericWeb: Checking existence of "bookingSelection search_component_by_id".
+[i] [15:26:11] At context ObjectsSelenium: Looking for bookingSelection search_component_by_id in object repository
+[i] [15:26:11] At context ObjectsSelenium: Looking for bookingSelection search_component_by_id in standard object library
+[D] [15:26:11] At context ObjectsSelenium: //*[@id="bookingSelection"]
+[i] [15:27:42] At context ReportManager: Obtaining screenshot of step
+[i] [15:27:42] At context ReportManager: [blocked] 15:27:42 02/03/2018 BDF homepage is not displayed.
+[i] [15:27:42] At context ReportManager: Adding step to test execution
+[i] [15:27:42] At context GenericWeb: Waiting to "bookingSelection search_component_by_id" be present during 20 seconds.
+[i] [15:27:42] At context GenericWeb: Checking existence of "bookingSelection search_component_by_id".
+[i] [15:27:42] At context ObjectsSelenium: Looking for bookingSelection search_component_by_id in object repository
+[i] [15:27:42] At context ObjectsSelenium: Looking for bookingSelection search_component_by_id in standard object library
+[D] [15:27:42] At context ObjectsSelenium: //*[@id="bookingSelection"]
+[E] [15:27:52] At context EndToEndWebLoginTest: Error at runtime: Unexpected error while waiting for element to be present: null. Killing test execution.
+[i] [15:27:52] At context ReportManager: Obtaining screenshot of step
+[E] [15:27:52] At context EndToEndWebLoginTest: An unexpected error ocurred. Trying next test case.
+[i] [15:27:52] At context ReportManager: Obtaining screenshot of step
+[E] [15:27:52] At context EndToEndWebSuite: Error at runtime: An side error server ocurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DGARFINW7L', ip: '169.254.0.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\dgarfin\AppData\Local\Temp\scoped_dir6720_29584}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.186, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 44f5e216987109bc09cb4d0dcc74887f. Killing execution.
+[i] [15:27:52] At context DriverManager: Tearing down drivers...

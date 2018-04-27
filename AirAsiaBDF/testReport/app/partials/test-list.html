@@ -1,0 +1,62 @@
+<div class="container-fluid" >
+	<div class="row">
+		<div class="col-md-3">
+			<h3>{{'SUMMARY' | translate}}</h3>
+			
+			<canvas id="pie" class="chart chart-pie" chart-data="results" chart-colours="['#19d671','#F7464A','#949FB1']"
+ chart-labels="labels"></canvas> 
+			<table class="table table-condensed table-hover" >
+				<tr>
+					<td><span class="bold">{{'RAN_TEST' | translate}}</span></td>
+					<td>{{results[0] + results[1] + results[2]}}</td>
+				</tr>
+				<tr>
+					<td><span class="bold">{{'PASSED_TEST' | translate}}</span></td>
+					<td><span class = "passed">{{results[0]}}</span></td>
+				</tr>
+				<tr>
+					<td><span class="bold">{{'FAILED_TEST' | translate}}</span></td>
+					<td><span class = "failed">{{results[1]}}</span></td>
+				</tr>
+				
+				<tr>
+					<td><span class="bold">{{'BLOCKED_TEST' | translate}}</span></td>
+					<td><span class = "blocked">{{results[2]}}</span></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-md-9">
+
+			<div class="row testrow">
+				<h3 > Test  <a class = 'label right label-default customLabel' href="#/tests/">{{'RETURN_EXECUTION' | translate}} </a>  </h3>
+			</div>
+			<div class="row" >
+				<ul class="tests">
+					<li ng-repeat="test in tests" class="thumbnail test-listing">
+						<div class="row">
+							<div class="col-xs-7">
+								<p class="bold">{{test.suite}} </p>
+								<p>{{test.name}}</p>
+								<p>{{test.descr}}</p>
+								<p>Start Date: {{test.date}}</p>
+								<p>End Date: {{test.date2}}</p>
+							</div>
+							<div class ="col-xs-5">
+								<div class="row ">
+									<div class="col-md-12 labelMargin ">
+										<a class = 'label ' ng-class=
+											"{
+											'label-success' : (test.status.toLowerCase() == 'passed'),
+											'label-danger': (test.status.toLowerCase() == 'failed'),
+											'label-default':(test.status.toLowerCase() == 'blocked')
+										}" href="#/tests/{{runId}}/{{test.id}}/"><span class="bold">{{'VIEW_REPORT' | translate}}</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

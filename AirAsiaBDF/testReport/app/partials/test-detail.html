@@ -1,0 +1,57 @@
+<div class="container-fluid">
+	<div class="row margin">
+		<div class="col-xs-12">
+			<h3>
+				<span class = "bold">{{'NAME' | translate}} </span>
+				{{test.name}}
+				<span class="right">
+					<a class = 'label right label-default customLabel' href="#/tests/{{runId}}">{{'RETURN_TEST' | translate}}</a>
+				</span>
+			</h3>
+		</div>
+	</div>
+	<div class="row margin">
+		<h4><span class = "bold">{{'DESCRIPTION' | translate}} </span>{{test.description}}</h4>
+		<h1>{{'GLOBAL_STATUS' | translate}}
+			<span ng-switch="test.status.toLowerCase()">
+				<span ng-switch-when="passed" class="passed">{{'PASSED' | translate}}</span>
+				<span ng-switch-when="failed" class="failed">{{'FAILED' | translate}}</span>
+				<span ng-switch-when="blocked" class="blocked">{{'BLOCKED' | translate}}</span>
+			</span>
+		</h1>
+	</div>
+	<div class="row margin">
+		<h1>{{'STEP_BY_STEP' | translate}}</h1>
+		<div class = " col-sm-5 col-xs-12 thumbnail ng-class:{'col-sm-offset-2' : ((($index+1) %2)==0)}"  ng-repeat="name in notSorted(test.steps)" ng-init="step = test.steps[name]" >
+			<div class = "row paddingStep" >
+				<div class="col-xs-9">
+					<dd><span class="bold">{{'STEP_NUMBER' | translate}}</span> {{name}}</dd>
+					<dd><span class="bold">{{'DESCRIPTION' | translate}} </span> {{step.descr}}</dd>
+					<dd><span class="bold">{{'STATUS' | translate}}: </span> 
+						<span ng-switch="step.status.toLowerCase()">						
+							<span ng-switch-when="passed" class="passed">{{'PASSED' | translate}}</span>
+							<span ng-switch-when="failed" class="failed">{{'FAILED' | translate}}</span>
+							<span ng-switch-when="blocked" class="blocked">{{'BLOCKED' | translate}}</span>
+						</span>
+					</dd>
+					<dd><span class="bold">{{'STATUS_EXPLAIN' | translate}}</span> {{step.statusDescr}}</dd>
+				</div>
+				
+				<div class = " col-xs-3  vCenter">
+						<img ng-if="(step.uri !=null) && (step.uri != '')" ng-src="{{step.uri}}" class="test-thumbs thumbnail" ng-click="openImage($index)"/>
+						<img ng-if="(step.uri == null) || (step.uri == '')" ng-src="app/img/no_iage.png" class="test-thumbs thumbnail"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+<script type="text/ng-template" id="myModalContent.html" class="modalWidth">
+        <div class="modal-body">
+        	<img ng-src="app/img/leftArrow.png" class="leftArrow" ng-click="change(-1)"/>
+        	<img ng-src="app/img/leftArrow.png" class="rightArrow" ng-click="change(1)"/>
+      		<img ng-src="{{uri}}" class="thumbnail AmpliationImg" ng-click="cancel()"/>
+        </div>
+</script>
